@@ -1,0 +1,164 @@
+/* Body Styles */
+
+body{
+    line-height: 1.4em;
+    font-family: "helvetica neue";
+}
+
+/* Type Styles*/
+
+  h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color:#1A1A1A;
+
+     }
+
+  h2 {
+      font-size: 2em;
+      color: white;
+     }
+
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    margin-bottom: 30px;
+    font-family: 'helvetica neue'
+
+    }
+
+    a {
+      color: #f1f1f1;
+    text-decoration: none;
+    }
+
+    a:hover {color: dodgerblue;}
+
+img {width: 100%;}
+
+  div#container{
+    padding: 80px;
+    max-width: 100%;
+  }
+
+  div#navigation{
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    color: white;
+    
+
+  }
+
+  div#navigation ul {
+    text-align: right;
+ 
+}
+
+  div#navigation ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+div#navigation ul li a{
+  text-decoration: none;
+ color: #333333;
+
+}
+
+div#navigation ul li a:hover {
+  text-decoration: none;
+ color: dodgerblue;
+
+}
+
+  div#intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+  }
+
+#work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.item-left {
+  background-color: white;
+  font-size: 30px;
+  text-align: left;
+padding: 20px;
+}
+
+.item-right {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#about {
+      display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+    
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+
+}
+
+hr {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+#contact {
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 25vh;
+    background-color: #1A1A1A;
+    
+    
+    
+}
+
+div#contact ul li a:hover {
+  text-decoration: none;
+ color: dodgerblue;
+
+}
+
+  div#contact ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+ 
+}
+
+  div#contact ul li{
+    margin-left: 1em;
+    list-style: none;
+}
+
+/* Grid Contact - Left box */
+
+.email {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Grid Contact - Right box */
+
+.social {
+    padding: 50px;
+}
